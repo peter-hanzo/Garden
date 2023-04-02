@@ -1,0 +1,205 @@
+
+
+/* navigation */
+.md-tabs__link.md-tabs__link--active,
+.md-nav__link.md-nav__link--active {
+    font-weight: 700;
+}
+
+.img {
+    cursor: zoom-in;
+}
+
+
+/* admonition */
+
+.md-typeset .admonition.notes,
+.md-typeset details.notes {
+  border-color: rgb(137, 135, 138);
+  font-size: 16px;
+}
+.md-typeset .notes > .admonition-title,
+.md-typeset .notes > summary {
+  background-color: rgba(137, 135, 138, 0.1);
+  font-size: 14px
+}
+.md-typeset .notes > .admonition-title::before,
+.md-typeset .notes > summary::before {
+  background-color: rgb(137, 135, 138);
+  -webkit-mask-image: var(--md-admonition-icon--notes);
+          mask-image: var(--md-admonition-icon--notes);
+}
+
+
+
+.md-typeset .admonition.abstract,
+.md-typeset details.abstract {
+  border-color: rgb(137, 135, 138);
+  font-size: 16px;
+}
+.md-typeset .abstract > .admonition-title,
+.md-typeset .abstract > summary {
+  background-color: rgba(137, 135, 138, 0.1);
+  font-size: 14px
+}
+.md-typeset .abstract > .admonition-title::before,
+.md-typeset .abstract > summary::before {
+  background-color: rgb(137, 135, 138);
+  -webkit-mask-image: var(--md-admonition-icon--abstract);
+          mask-image: var(--md-admonition-icon--abstract);
+}
+
+
+
+.md-typeset .admonition.tip,
+.md-typeset details.tip {
+  border-color: rgb(15, 140, 34);
+  font-size: 16px;
+}
+.md-typeset .tip > .admonition-title,
+.md-typeset .tip > summary {
+  background-color: rgba(15, 140, 34, 0.1);
+  font-size: 14px
+}
+.md-typeset .tip > .admonition-title::before,
+.md-typeset .tip > summary::before {
+  background-color: rgb(15, 140, 34);
+  -webkit-mask-image: var(--md-admonition-icon--tip);
+          mask-image: var(--md-admonition-icon--tip);
+}
+
+
+
+.md-typeset .admonition.info,
+.md-typeset details.info {
+  border-color: rgb(31, 116, 181);
+  font-size: 16px;
+}
+.md-typeset .info > .admonition-title,
+.md-typeset .info > summary {
+  background-color: rgba(31, 116, 181, 0.1);
+  font-size: 14px
+}
+.md-typeset .info > .admonition-title::before,
+.md-typeset .info > summary::before {
+  background-color: rgb(31, 116, 181);
+  -webkit-mask-image: var(--md-admonition-icon--info);
+          mask-image: var(--md-admonition-icon--info);
+}
+
+
+
+
+.md-typeset .admonition.question,
+.md-typeset details.question {
+  border-color: rgb(31, 116, 181);
+  font-size: 16px;
+}
+.md-typeset .question > .admonition-title,
+.md-typeset .question > summary {
+  background-color: rgba(31, 116, 181, 0.1);
+  font-size: 14px
+}
+.md-typeset .question > .admonition-title::before,
+.md-typeset .question > summary::before {
+  background-color: rgb(31, 116, 181);
+  -webkit-mask-image: var(--md-admonition-icon--question);
+          mask-image: var(--md-admonition-icon--question);
+}
+
+
+
+
+.md-typeset .admonition.warning,
+.md-typeset details.warning {
+  border-color: rgb(237, 170, 45);
+  font-size: 16px;
+}
+.md-typeset .warning > .admonition-title,
+.md-typeset .warning > summary {
+  background-color: rgba(237, 170, 45, 0.1);
+  font-size: 14px
+}
+.md-typeset .warning > .admonition-title::before,
+.md-typeset .warning > summary::before {
+  background-color: rgb(237, 170, 45);
+  -webkit-mask-image: var(--md-admonition-icon--warning);
+          mask-image: var(--md-admonition-icon--warning);
+}
+
+
+
+.md-typeset .admonition.danger,
+.md-typeset details.danger {
+  border-color: rgb(237, 125, 45);
+  font-size: 16px;
+}
+.md-typeset .danger > .admonition-title,
+.md-typeset .danger > summary {
+  background-color: rgba(237, 125, 45, 0.1);
+  font-size: 14px
+}
+.md-typeset .danger > .admonition-title::before,
+.md-typeset .danger > summary::before {
+  background-color: rgb(237, 125, 45);
+  -webkit-mask-image: var(--md-admonition-icon--danger);
+          mask-image: var(--md-admonition-icon--danger);
+}
+
+
+
+.md-typeset .admonition.video,
+.md-typeset details.video {
+  border-color: rgb(31, 116, 181);
+  font-size: 16px;
+}
+.md-typeset .video > .admonition-title,
+.md-typeset .video > summary {
+  background-color: rgba(31, 116, 181, 0.1);
+  font-size: 14px
+}
+.md-typeset .video > .admonition-title::before,
+.md-typeset .video > summary::before {
+  background-color: rgb(31, 116, 181);
+  -webkit-mask-image: var(--md-admonition-icon--video);
+          mask-image: var(--md-admonition-icon--video);
+}
+
+
+
+.md-typeset .admonition.quote,
+.md-typeset details.quote {
+  border-color: rgb(137, 135, 138);
+  font-size: 16px;
+}
+.md-typeset .quote > .admonition-title,
+.md-typeset .quote > summary {
+  background-color: rgba(137, 135, 138, 0.1);
+  font-size: 14px
+}
+.md-typeset .quote > .admonition-title::before,
+.md-typeset .quote > summary::before {
+  background-color: rgb(137, 135, 138);
+  -webkit-mask-image: var(--md-admonition-icon--quote);
+          mask-image: var(--md-admonition-icon--quote);
+}
+
+
+
+
+.md-typeset .admonition.example,
+.md-typeset details.example {
+  border-color: rgb(121, 31, 181);
+  font-size: 16px;
+}
+.md-typeset .example > .admonition-title,
+.md-typeset .example > summary {
+  background-color: rgba(121, 31, 181, 0.1);
+  font-size: 14px
+}
+.md-typeset .example > .admonition-title::before,
+.md-typeset .example > summary::before {
+  background-color: rgb(121, 31, 181);
+  -webkit-mask-image: var(--md-admonition-icon--example);
+          mask-image: var(--md-admonition-icon--example);
+}
