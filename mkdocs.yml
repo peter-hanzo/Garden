@@ -81,7 +81,6 @@ theme:
     # - toc.integrate # show the table of contents in the navigation panel
     - navigation.tabs.sticky
     - navigation.instant
-    - content.action.edit
     - content.action.view
   
     # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search
