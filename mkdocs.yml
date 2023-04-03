@@ -2,7 +2,7 @@ site_name: Hanzo Garden
 site_url: https://garden.hanzo.page/ # must have the trailing slash
 site_author: Peter Hanzo
 site_description: Cloud Tools for your productivity
-repo_name: peter-hanzo/Digital-Garden/
+repo_name: peter-hanzo/garden/
 repo_url: https://github.com/peter-hanzo/garden/
 edit_uri: edit/main/docs/
 docs_dir: ./docs
